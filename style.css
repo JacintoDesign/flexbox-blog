@@ -127,3 +127,75 @@ footer {
 .social-icons {
   margin-bottom: 10px; /* Space between icons and copyright */
 }
+
+/* Media Queries ------------------ */
+
+/* Tablet Vertical */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    width: 90%;
+  }
+
+  .featured-article h1 {
+    font-size: 2.2rem;
+  }
+
+  .article h2 {
+    font-size: 1.7rem;
+  }
+
+  .nav-left h1 {
+    font-size: 2.8rem;
+  }
+
+  #navbar.scrolled .nav-left h1 {
+    font-size: 2.3rem; 
+  }
+}
+
+/* Smartphone Vertical */
+@media screen and (max-width: 767px) {
+  .main {
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  .featured-article h1 {
+    font-size: 2rem;
+  }
+
+  .featured-article p {
+    font-size: 1rem;
+  }
+
+  .smaller-articles {
+    flex-direction: column;
+  }
+
+  .article {
+    margin: 20px 0;
+  }
+
+  .article h2 {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 10px 5%;
+  }
+
+  .nav-left h1 {
+    font-size: 2.5rem;
+  }
+
+  #navbar.scrolled .nav-left h1 {
+    font-size: 2rem; /* Slightly reduce size when scrolled */
+  }
+
+  .nav-right {
+    margin-top: 10px;
+  }
+}
