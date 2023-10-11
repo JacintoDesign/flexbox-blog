@@ -20,6 +20,10 @@ article {
     align-items: center;
 }
 
+.text-container {
+    width: 75ch;
+}
+
 img {
     object-fit: cover;  /* Ensures the image covers the container */
 }
@@ -112,8 +116,12 @@ p {
         margin: 30px auto;
     }
 
+    .text-container {
+        width: 85%;
+    }
+
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin: 15px 0;
     }
 
