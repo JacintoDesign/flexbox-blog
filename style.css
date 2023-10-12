@@ -136,7 +136,7 @@ footer {
 /* Media Queries ------------------ */
 
 /* Tablet Vertical */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1025px) {
   .nav-left h1 {
     font-size: 1.5rem !important;
   }
